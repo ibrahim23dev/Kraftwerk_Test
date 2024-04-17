@@ -9,8 +9,6 @@ import {
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import ProductDetails from "./ProductsDetails";
-import Product from "./Products";
-import TopProducts from "./TopProducts";
 
 function ListProduct() {
   const [products, setProducts] = useState([]);
@@ -74,8 +72,6 @@ function ListProduct() {
 
   return (
     <div>
-      <Product />
-      <TopProducts />
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-semibold text-center mb-8 mt-6 font-serif">
           Featured Products

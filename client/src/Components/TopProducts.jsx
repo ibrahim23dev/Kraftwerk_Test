@@ -23,8 +23,7 @@ const ProductsData = [
     id: 3,
     img: Img3,
     title: "Huawei P30",
-    description:
-      "Huawei’s re-badged P30 Pro New Edition was officially.",
+    description: "Huawei’s re-badged P30 Pro New Edition was officially.",
   },
 ];
 
@@ -34,14 +33,25 @@ const TopProducts = ({ handleOrderPopup }) => {
       <div className="container">
         {/* Header section */}
         <div className="text-left mb-24">
-          <p data-aos="fade-up" className="text-sm text-primary flex items-center justify-center">
+          <p
+            data-aos="fade-up"
+            className="text-sm text-primary flex items-center justify-center"
+          >
             Top Rated Products for you
           </p>
-          <h1 data-aos="fade-up" className="text-3xl font-bold flex items-center justify-center">
+          <h1
+            data-aos="fade-up"
+            className="text-3xl font-bold flex items-center justify-center"
+          >
             Best Products
           </h1>
-          <p data-aos="fade-up" className="text-xs text-gray-400 flex items-center justify-center">
-            Elevate your home entertainment with our immersive 4K smart TV—delivering stunning visuals and unparalleled streaming options for every viewer
+          <p
+            data-aos="fade-up"
+            className="text-xs text-gray-400 flex items-center justify-center"
+          >
+            Elevate your home entertainment with our immersive 4K smart
+            TV—delivering stunning visuals and unparalleled streaming options
+            for every viewer
           </p>
         </div>
         {/* Body section */}

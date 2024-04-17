@@ -6,6 +6,7 @@ import AboutUs from "./Components/AboutUs";
 import FAQ from "./Components/FAQ";
 import Login from "./Components/Login";
 import Registation from "./Components/Registtion";
+import ListProduct from "./Components/ListProduct";
 function App() {
 
 
@@ -14,7 +15,8 @@ function App() {
        <BrowserRouter>
       <Routes>
         <Route path="/" element={<MainLayout/>}>
-          <Route index element={<Home />} />
+            <Route index element={<Home />} />
+            <Route path="/products" element={<ListProduct />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/login" element={<Login />} />
